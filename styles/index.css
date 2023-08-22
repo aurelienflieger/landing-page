@@ -1,0 +1,99 @@
+@import "fonts.css";
+
+html,
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.header__logo,
+.hero__main-title {
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.header__link,
+.hero__subtext,
+.hero__image,
+.hero__button {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header {
+  background-color: #1f2927;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 150px;
+  padding: 20px 200px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-size: 24px;
+}
+
+.header__list {
+  display: flex;
+  gap: 20px;
+}
+
+.header__list-item {
+  list-style: none;
+}
+
+.header__link {
+  text-decoration-line: none;
+}
+
+.header__hero {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hero__main-title {
+  font-size: 48px;
+}
+
+.hero__button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 2px 15px;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero__right {
+  background-color: #686d6c;
+  padding: 80px;
+  text-align: center;
+  flex-grow: 2;
+  max-width: 800px;
+}
