@@ -1,9 +1,9 @@
 .cta {
+  align-items: center;
   border: 1px solid red;
   display: flex;
-  flex: 1;
+  height: 200px;
   justify-content: center;
-  padding: 100px 0;
 }
 
 .cta__container {
