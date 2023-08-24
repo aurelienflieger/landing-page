@@ -1,6 +1,7 @@
 .cta {
   border: 1px solid red;
   display: flex;
+  flex: 1;
   justify-content: center;
   padding: 100px 0;
 }
