@@ -1,23 +1,25 @@
 .quote {
-  align-items: center;
   background-color: var(--clr-grey-light);
   display: flex;
   flex-direction: column;
-  flex: 1;
+  gap: 10px;
+  height: 300px;
   justify-content: center;
-  padding: 5% 10%;
+  padding: 150px 200px;
 }
 
 .quote__blockquote {
+  text-align: justify;
+}
+
+.quote__paragraph {
   color: var(--clr-grey-dark);
   font-size: 36px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .quote__author {
   align-self: flex-end;
-  color: var(--clr-grey-dark);
-  font-size: 18px;
   font-weight: 600;
 }
