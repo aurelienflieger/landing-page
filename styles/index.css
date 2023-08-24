@@ -1,9 +1,9 @@
 @import "variables.css";
 @import "fonts.css";
 @import "header.css";
-@import "random-info-section.css";
-@import "quote-section.css";
-@import "cta-section.css";
+@import "random-info.css";
+@import "quote.css";
+@import "cta.css";
 
 html,
 *,
