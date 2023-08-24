@@ -2,10 +2,10 @@
   background-color: var(--clr-grey-light);
   display: flex;
   flex-direction: column;
+  flex: 1;
   gap: 10px;
-  height: 300px;
   justify-content: center;
-  padding: 150px 200px;
+  padding: 0px 200px;
 }
 
 .quote__blockquote {

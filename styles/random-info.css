@@ -2,9 +2,9 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex: 1.5;
   gap: 20px;
   justify-content: center;
-  height: 300px;
 }
 
 .random-info__title {

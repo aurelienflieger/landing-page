@@ -1,8 +1,7 @@
 .cta {
   align-items: center;
-  border: 1px solid red;
   display: flex;
-  height: 200px;
+  flex: 0.75;
   justify-content: center;
 }
 
