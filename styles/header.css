@@ -60,12 +60,7 @@
 }
 
 .header__hero-button {
-  background-color: var(--clr-blue-light);
   border: none;
-  border-radius: 10px;
-  color: var(--clr-grey-light);
-  font-weight: 800;
-  padding: 5px 15px;
 }
 
 .header__hero-right {

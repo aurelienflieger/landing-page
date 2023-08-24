@@ -1,3 +1,26 @@
-.CTA-section {
-  flex: 1;
+.cta {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.cta__container {
+  background-color: var(--clr-blue-light);
+  border-radius: 10px;
+  display: flex;
+  gap: 100px;
+  padding: 2% 5%;
+}
+
+.cta__title {
+  color: var(--clr-white);
+}
+
+.cta__text {
+  color: var(--clr-grey-light);
+}
+
+.cta__button {
+  border: 1px solid var(--clr-white);
 }

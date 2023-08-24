@@ -21,3 +21,11 @@ body {
   height: 100dvh;
   width: 100dvw;
 }
+
+.sign-up-button {
+  background-color: var(--clr-blue-light);
+  border-radius: 10px;
+  color: var(--clr-grey-light);
+  font-weight: 800;
+  padding: 5px 15px;
+}
